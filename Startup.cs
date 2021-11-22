@@ -25,7 +25,7 @@ namespace StripeIntegration
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            StripeConfiguration.ApiKey = "sk_test_51JqTZxIkvorw1u2yIUmoHvTRgJ1kh4lDXqZ04edD5yp9dXt2dF44PXzBbl140Z1rZtEiUfQH5eFaf6GFfbDnkdWo00K9gBcDHc";
+            StripeConfiguration.ApiKey = "";
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
